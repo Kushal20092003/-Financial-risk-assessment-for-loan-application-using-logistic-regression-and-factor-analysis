@@ -335,3 +335,22 @@ The aim of the project was to combine factor analysis and logistic regression to
 
 The findings showed that combining these techniques can greatly improve loan default prediction interpretability and predictive accuracy. The model provided financial organizations with a useful tool for data-driven decision-making by striking a balance between specificity and sensitivity. The framework ensures better financial resource allocation, streamlines loan approval procedures, and reduces credit risk.
 
+## Recommendation for future research 
+
+	- Integration of advanced machine learning models: Adding sophisticated algorithms like ensemble techniques or Gradient Boosting Machines (like XGBoost and LightGBM) could improve predicted accuracy and adaptability to complicated datasets.
+
+	- Dynamic factor models: Using dynamic factor analysis can help models perform better in changing financial markets by taking time varying elements into consideration.
+
+	- Real-time risk assessment: By integrating streaming data into real-time scoring systems, it may be possible to obtain immediate insights while processing loan applications.
+
+	- External data incorporation: The model could be enhanced and non-traditional creditworthiness signals could be captured by incorporating alternative data sources such social media activity, transaction patterns, and utility payment histories.
+
+	- Explainability and AI trust: By providing clear insights into the variables affecting risk projections, explainable AI (XAI) solutions can increase stakeholders' trust.
+
+
+	- Fairness and Regulatory Compliance: Future research should concentrate on making sure the model conforms with ethical norms and financial rules, especially when it comes to biases in loan acceptance decisions.‍
+
+	- Geographic and Demographic Expansion: By evaluating the model in other geographical locations and demographic groupings, its generalizability can be confirmed and market-specific modifications can be found.
+
+	- Integration with Blockchain Technology: Investigating blockchain's potential for safe data exchange and improved loan processing transparency can increase public confidence in financial institutions.
+
