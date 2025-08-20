@@ -105,19 +105,27 @@ The test is highly significant (p < 0.05), indicating that the correlation matri
 
 c) Principle Component Analysis:
 
-• Eigenvalues and Factor Retention:
+   Eigenvalues and Factor Retention:
 
-• Components with eigenvalues above 1 are typically considered significant and considered for further analysis in Factor Analysis. In this case, seven components have an eigenvalue above 1, so they were taken as the significant factors.
+   - Components with eigenvalues above 1 are typically considered significant and considered for further analysis in Factor Analysis. In this case, seven components have an eigenvalue above 1, so they were taken as the significant factors.
 
-• This states, complexity in your dataset can be reduced to about seven core factors without information loss being too consequential
+   - This states, complexity in your dataset can be reduced to about seven core factors without information loss being too consequential
 
-Scree Test: A visual inspection of the eigenvalues in a scree plot. The point where the curve flattens helps to determine the number of factors to retain.
+   Scree Test: A visual inspection of the eigenvalues in a scree plot. The point where the curve flattens helps to determine the number of factors to retain.
 
-Variance Explained by Each Factor:
+   Variance Explained by Each Factor:
 
-• The initial eigenvalues column shows that the first component explains 16.507% of the
-variance, while the cumulative variance explained by the seven factors is 64.764%. This
+a) The initial eigenvalues column shows that the first component explains 16.507% of the variance, while the cumulative variance explained by the seven factors is 64.764%. This
 means that these seven components capture around 65% of the total variance in the dataset.
 
+<img width="472" height="289" alt="image" src="https://github.com/user-attachments/assets/aa36717e-d207-4e03-90ef-797a6d67d508" />
+<img width="472" height="359" alt="image" src="https://github.com/user-attachments/assets/af4cb7ee-41db-49ad-8686-53aae5314cfd" />
+<img width="475" height="323" alt="image" src="https://github.com/user-attachments/assets/eb9b5bfc-099d-404b-8464-8f45438fcc82" />
 
-<img width="468" height="304" alt="image" src="https://github.com/user-attachments/assets/07936c46-f4cd-491b-866d-92e8e089b3ac" />
+- Communities Analysis
+
+a) Variables with High Communalities: These variables are strongly captured by the factors, indicating they share a lot of variances with the latent constructs.
+
+b) Variables with Moderate Communalities: These are reasonably well explained by the factors but could be influenced by other unmeasured variables.
+
+c) Variables with Low Communalities: These are poorly explained by the factors, suggesting that either these variables are not highly related to the latent constructs or there are additional underlying factors not captured in this analysis.
