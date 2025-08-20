@@ -321,11 +321,11 @@ d) Operational Enhancements - Automate loan approvals based on significant predi
 
   - Action: Deploy a predictive model to flag high-probability approvals and reduce processing time.
 
-f) Risk Management - High DTI and excessive credit utilization are key risk factors.
+e) Risk Management - High DTI and excessive credit utilization are key risk factors.
 
   - Action: Offer credit counseling and risk-based pricing for high-risk customers. Monitor customers with significant monthly debts to identify those suitable for cross-selling other financial products.
 
-g) Policy Refinement - Reassess the role of non-significant variables (e.g., bankruptcies, tax liens) in risk scoring.
+f) Policy Refinement - Reassess the role of non-significant variables (e.g., bankruptcies, tax liens) in risk scoring.
 
   - Action: Explore alternative datasets or variable transformations to improve predictive power.
 
