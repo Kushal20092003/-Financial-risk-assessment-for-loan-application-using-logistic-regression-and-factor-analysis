@@ -114,8 +114,7 @@ c) Principle Component Analysis:
    Scree Test: A visual inspection of the eigenvalues in a scree plot. The point where the curve flattens helps to determine the number of factors to retain.
 
    Variance Explained by Each Factor:
-
-a) The initial eigenvalues column shows that the first component explains 16.507% of the variance, while the cumulative variance explained by the seven factors is 64.764%. This
+The initial eigenvalues column shows that the first component explains 16.507% of the variance, while the cumulative variance explained by the seven factors is 64.764%. This
 means that these seven components capture around 65% of the total variance in the dataset.
 
 <img width="472" height="289" alt="image" src="https://github.com/user-attachments/assets/aa36717e-d207-4e03-90ef-797a6d67d508" />
@@ -124,8 +123,8 @@ means that these seven components capture around 65% of the total variance in th
 
 - Communities Analysis
 
-a) Variables with High Communalities: These variables are strongly captured by the factors, indicating they share a lot of variances with the latent constructs.
+  - Variables with High Communalities: These variables are strongly captured by the factors, indicating they share a lot of variances with the latent constructs.
 
-b) Variables with Moderate Communalities: These are reasonably well explained by the factors but could be influenced by other unmeasured variables.
+  - Variables with Moderate Communalities: These are reasonably well explained by the factors but could be influenced by other unmeasured variables.
 
-c) Variables with Low Communalities: These are poorly explained by the factors, suggesting that either these variables are not highly related to the latent constructs or there are additional underlying factors not captured in this analysis.
+  - Variables with Low Communalities: These are poorly explained by the factors, suggesting that either these variables are not highly related to the latent constructs or there are additional underlying factors not captured in this analysis.
