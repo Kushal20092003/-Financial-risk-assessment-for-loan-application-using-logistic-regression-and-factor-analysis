@@ -1,4 +1,4 @@
-# -Financial-risk-assessment-for-loan-application-using-logistic-regression-and-factor-analysis
+# -Financial-risk-assessment-for-loan-application-using-logistic-regression-and-factor-analysis (SPSS Project)
 
 [Abstract](#abstract)
 
