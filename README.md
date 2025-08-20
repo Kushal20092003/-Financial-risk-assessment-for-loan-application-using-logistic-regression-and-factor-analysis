@@ -76,3 +76,48 @@ predict loan outcomes, and segment borrowers into actionable groups based on fin
 The dataset consists of 1,099 records, with the following key variables
 
 <img width="451" height="481" alt="image" src="https://github.com/user-attachments/assets/2ae402d8-3a4f-4617-b7a4-8489a860d02e" />
+
+### Factor Analysis :
+Objective: To identify the key underlying factors that influence loan approval            decisions based on borrowers' financial profiles, credit history, and demographic characteristics.
+
+
+- SPSS Output:
+  
+a)	KaiserMeyerOlkin (KMO) : Measures the sampling adequacy to ensure that the data is suitable for factor analysis. A value close to 1 indicates that factor analysis is appropriate.
+
+• KMO Value: 0.553
+
+• The KMO value above 0.5, indicates that the dataset is adequate for factor analysis.
+
+b) Bartlett's Test of Sphericity :
+
+  Tests the null hypothesis that the correlation matrix is an identity matrix (no correlation between variables). A significant result (p-value < 0.05) suggests that the data is suitable for factor analysis.
+
+• Chi-square (Approx.): 4964.935
+
+• Degrees of Freedom (df): 136
+
+• Significance (Sig.): 0.000
+
+The test is highly significant (p < 0.05), indicating that the correlation matrix is not an identity matrix. This means there are significant relationships among the variables, justifying the use of factor analysis.
+
+<img width="342" height="136" alt="image" src="https://github.com/user-attachments/assets/4afc3f21-6a8c-4934-8bee-cf43b4884ae5" />
+
+c) Principle Component Analysis:
+
+• Eigenvalues and Factor Retention:
+
+• Components with eigenvalues above 1 are typically considered significant and considered for further analysis in Factor Analysis. In this case, seven components have an eigenvalue above 1, so they were taken as the significant factors.
+
+• This states, complexity in your dataset can be reduced to about seven core factors without information loss being too consequential
+
+Scree Test: A visual inspection of the eigenvalues in a scree plot. The point where the curve flattens helps to determine the number of factors to retain.
+
+Variance Explained by Each Factor:
+
+• The initial eigenvalues column shows that the first component explains 16.507% of the
+variance, while the cumulative variance explained by the seven factors is 64.764%. This
+means that these seven components capture around 65% of the total variance in the dataset.
+
+
+<img width="468" height="304" alt="image" src="https://github.com/user-attachments/assets/07936c46-f4cd-491b-866d-92e8e089b3ac" />
