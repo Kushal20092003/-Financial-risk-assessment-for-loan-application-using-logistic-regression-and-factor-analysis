@@ -161,6 +161,123 @@ This factor focuses on how credit is being used for specific goals and the propo
 of credit being utilized. It ties the borrower's credit behavior to their purpose for borrowing.
 
   - Factor 7: Negative Credit Events
-This factor measures the presence of adverse financial events, including bankruptcies
-and tax liens, which directly impact creditworthiness and the borrower's ability to secure loans.
+This factor measures the presence of adverse financial events, including bankruptcies and tax liens, which directly impact creditworthiness and the borrower's ability to secure loans.
+
+### Logistic Regression :
+
+Objective: To predict loan approval likelihood based on financial and demographic factors, identifying significant predictors such as credit score, debt-to-income ratio, homeownership, and loan term to inform loan decision-making.
+
+SPSS Output:
+
+a)
+<img width="468" height="169" alt="image" src="https://github.com/user-attachments/assets/8130932b-90ab-4f70-a8f0-c1d7242ff86c" />
+
+b)
+<img width="316" height="127" alt="image" src="https://github.com/user-attachments/assets/d7c6a60e-9c2c-4256-afc4-4d594d29dd25" />
+
+c) Baseline Comparison: The baseline accuracy of 74.0% serves as a benchmark for evaluating the logistic regression model
+
+<img width="425" height="228" alt="image" src="https://github.com/user-attachments/assets/e14733d7-8b24-44a5-89b4-43f09ae45529" />
+
+d) Omnibus Test of Significance :
+
+<img width="291" height="128" alt="image" src="https://github.com/user-attachments/assets/4a53551e-4848-49cb-8dcb-5f25906b33dc" />
+
+The p-value = 0.000 (less than 0.05), which indicates that the model with predictors significantly improves the prediction compared to the null model.
+
+e) Hosmer and Lemeshow Test :
+
+<img width="234" height="78" alt="image" src="https://github.com/user-attachments/assets/23dbac56-ae2f-4394-b8d1-1e1eceab2701" />
+
+Interpretation :
+
+1) ChiSquare Value (12.770):
+   
+This measures the difference between observed and predicted probabilities of the dependent
+variable (loan approval). A smaller value indicates a better fit.
+
+
+2) Significance (p = 0.120):
+   
+Since p=0.120p = 0.120p=0.120 is greater than 0.05, there is no statistically significant
+evidence to suggest a lack of fit.
+
+This means the model's predictions are consistent with the observed outcomes.
+
+3) 
+
+<img width="416" height="165" alt="image" src="https://github.com/user-attachments/assets/60d974a1-7e78-41ac-8233-6c125454fca3" />
+
+The Classification Table provides the model's prediction accuracy for the dependent variable
+(in this case, Loan Approval Status) based on the logistic regression model with predictors.
+Here’s how to interpret the results:
+
+a) Loan Approval Status = 0 (Not Approved):
+   - Observed = 286, of which:
+     - Correctly predicted = 241.
+     - Incorrectly predicted = 45 (predicted as approved when not approved).
+     - Accuracy for Not Approved cases = 84.3%.
+
+b) Loan Approval Status = 1 (Approved):
+   - Observed = 813, of which:
+     - Correctly predicted = 793.
+     - Incorrectly predicted = 20 (predicted as not approved when actually approved).
+     - Accuracy for Approved cases = 97.5%.
+
+c) Overall Percentage:
+   - 94.1% of all cases (both approved and not approved) were correctly classified by the model.
+
+<img width="452" height="368" alt="image" src="https://github.com/user-attachments/assets/b82ba85a-32a2-49cc-9901-c061c61576fb" />
+
+- Significant Predictors (p < 0.05)
+
+-  Credit Score:
+   -  B = 0.119, p < 0.001, Exp(B) = 1.127
+   - A one-unit increase in the credit score increases the odds of loan approval by 12.7%.
+   - Insight: High credit scores are positively associated with loan approvals.
+
+- Debt-to-Income Ratio (DTI) :
+  - B = -7.616, p < 0.001, Exp(B) = 0.000
+  - A higher DTI decreases the odds of loan approval to almost zero.
+  - Insight: Applicants with manageable DTI are significantly more likely to get loans.
+
+- Monthly Debt:
+  - B = 0.000, p = 0.012, Exp(B) = 1.000
+  - Monthly debt, though appearing small, is significant in predicting approvals.
+  - Insight: Applicants with consistent monthly debt management may positively influence
+approval decisions.
+
+- Credit Utilization:
+  - B = 0.010, p = 0.010, Exp(B) = 1.011
+  - A slight increase in credit utilization increases the odds of loan approval by 1.1%.
+  - Insight: Moderate credit utilization indicates responsible financial behaviour.
+
+- Home Mortgage:
+  - B = -0.608, p = 0.043, Exp(B) = 0.544
+  - Applicants with mortgages have 45.6% lower odds of approval compared to renters.
+  - Insight: Mortgage holders may be seen as riskier due to existing liabilities.
+
+- Non-Significant Predictors (p ≥ 0.05)
+
+- Loan Purpose (e.g., Personal Improvement, Asset Purchase, Financial Restructuring):
+  - These purposes show no significant impact on loan approval decisions individually.
+  - Action: Reassess purpose-specific lending policies or use alternate modeling techniques.
+
+- Loan Term:
+  - B = 0.348, p = 0.300, Exp(B) = 1.416
+  - Longer-term loans slightly increase the odds of approval but are not statistically significant.
+
+- Bankruptcies and Tax Liens:
+  - Both predictors were not significant, with p > 0.99.
+  - Action: While these variables may not directly predict approvals, they could influence other loan terms (e.g., interest rates).
+
+- Current Loan Amount:
+  - p = 0.671, indicating no significant impact on approvals.
+
+- Home Ownership Categories (Other than Mortgage) :
+  - Categories such as "Own Home" did not significantly affect loan approvals.
+
+- Final Logistic Regression Equation :
+  
+Log(P/1-P) = -80.967+(0.119×Credit Score) −(7.616×DTI) +(0.000×Monthly Debt) +(0.010×Credit Utilization) −(0.608×Home Mortgage).
 
