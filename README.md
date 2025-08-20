@@ -299,35 +299,35 @@ Log(P/1-P) = -80.967+(0.119×Credit Score) −(7.616×DTI) +(0.000×Monthly Debt
 
 a) Creditworthiness Assessment - Credit Score is the most significant predictor.
     
-    - Action: Develop exclusive products or expedited processes for applicants with high credit scores.
+  - Action: Develop exclusive products or expedited processes for applicants with high credit scores.
     
-   Debt-to-Income Ratio shows a strong negative relationship.
+  Debt-to-Income Ratio shows a strong negative relationship.
 
-    - Action: Use DTI as a primary eligibility filter in automated approval systems.
+  - Action: Use DTI as a primary eligibility filter in automated approval systems.
 
 b) Loan Purpose Analysis - Asset Purchase loans show a trend toward approval, although not statistically significant.
       
-    - Action: Consider creating specialized loan offerings or discounts for asset purchases.
+  - Action: Consider creating specialized loan offerings or discounts for asset purchases.
 
 c) Home Ownership Insights - Mortgage Holders are less likely to receive approvals.
 
-    - Action: Introduce tailored products like mortgage-backed loans or restructured payment plans for this segment.
+  - Action: Introduce tailored products like mortgage-backed loans or restructured payment plans for this segment.
 
-   Renters are viewed more favourably.
+  Renters are viewed more favourably.
 
-    - Action: Explore why renters are approved more frequently and refine criteria for homeowners.
+  - Action: Explore why renters are approved more frequently and refine criteria for homeowners.
 
 d) Operational Enhancements - Automate loan approvals based on significant predictors (e.g., high credit score, low DTI, moderate credit utilization).
 
-    - Action: Deploy a predictive model to flag high-probability approvals and reduce processing time.
+  - Action: Deploy a predictive model to flag high-probability approvals and reduce processing time.
 
 f) Risk Management - High DTI and excessive credit utilization are key risk factors.
 
-    - Action: Offer credit counseling and risk-based pricing for high-risk customers. Monitor customers with significant monthly debts to identify those suitable for cross-selling other financial products.
+  - Action: Offer credit counseling and risk-based pricing for high-risk customers. Monitor customers with significant monthly debts to identify those suitable for cross-selling other financial products.
 
 g) Policy Refinement - Reassess the role of non-significant variables (e.g., bankruptcies, tax liens) in risk scoring.
 
-    - Action: Explore alternative datasets or variable transformations to improve predictive power.
+  - Action: Explore alternative datasets or variable transformations to improve predictive power.
 
 ## Conclusion:
 
