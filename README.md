@@ -1,0 +1,1 @@
+# -Financial-risk-assessment-for-loan-application-using-logistic-regression-and-factor-analysis
