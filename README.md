@@ -148,19 +148,19 @@ This factor evaluates the creditworthiness of the borrower. It emphasizes income
 current obligations. The number of accounts open represents the borrower's activity in
 the credit system.
 
- - Factor 4: Credit History and Stability
+  - Factor 4: Credit History and Stability
 This would reflect the ability to commit to savings and dependability. A longer credit
 history, stable employment, and homeownership suggest a borrower is likely more
 financially dependable.
 
- - Factor 5: Loan Terms
+  - Factor 5: Loan Terms
 This reflects the terms of the loan and recent updates in the credit profile of the borrower. The negative loading on "Creditupdate" suggests the relationship between recent updates to credit files and length of terms of loans might be inversely related.
 
- - Factor 6: Credit Utilization and Purpose
+  - Factor 6: Credit Utilization and Purpose
 This factor focuses on how credit is being used for specific goals and the proportion
 of credit being utilized. It ties the borrower's credit behavior to their purpose for borrowing.
 
- - Factor 7: Negative Credit Events
+  - Factor 7: Negative Credit Events
 This factor measures the presence of adverse financial events, including bankruptcies
 and tax liens, which directly impact creditworthiness and the borrower's ability to secure loans.
 
