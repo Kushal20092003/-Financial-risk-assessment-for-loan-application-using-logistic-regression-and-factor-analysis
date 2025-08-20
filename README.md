@@ -128,3 +128,39 @@ means that these seven components capture around 65% of the total variance in th
   - Variables with Moderate Communalities: These are reasonably well explained by the factors but could be influenced by other unmeasured variables.
 
   - Variables with Low Communalities: These are poorly explained by the factors, suggesting that either these variables are not highly related to the latent constructs or there are additional underlying factors not captured in this analysis.
+
+<img width="281" height="375" alt="image" src="https://github.com/user-attachments/assets/0cd51d00-cb1f-4e4f-84d4-36576f5aa2d3" />
+
+- Interpretation :
+
+  - Factor 1: Credit Balance and Utilization
+This factor reflects the borrower's credit capacity and current usage of available credit
+limits. High values in this factor might indicate individuals with high credit balances
+and greater credit limits, which in turn may suggest a strong credit profile.
+
+  - Factor 2: Loan Characteristics
+This factor describes the size and burden of the loan relative to the borrower's income.
+It captures how well borrowers are able to handle their loan obligations relative to
+what they earn.
+
+  - Factor 3: Income and Debt
+This factor evaluates the creditworthiness of the borrower. It emphasizes income and
+current obligations. The number of accounts open represents the borrower's activity in
+the credit system.
+
+ - Factor 4: Credit History and Stability
+This would reflect the ability to commit to savings and dependability. A longer credit
+history, stable employment, and homeownership suggest a borrower is likely more
+financially dependable.
+
+ - Factor 5: Loan Terms
+This reflects the terms of the loan and recent updates in the credit profile of the borrower. The negative loading on "Creditupdate" suggests the relationship between recent updates to credit files and length of terms of loans might be inversely related.
+
+ - Factor 6: Credit Utilization and Purpose
+This factor focuses on how credit is being used for specific goals and the proportion
+of credit being utilized. It ties the borrower's credit behavior to their purpose for borrowing.
+
+ - Factor 7: Negative Credit Events
+This factor measures the presence of adverse financial events, including bankruptcies
+and tax liens, which directly impact creditworthiness and the borrower's ability to secure loans.
+
