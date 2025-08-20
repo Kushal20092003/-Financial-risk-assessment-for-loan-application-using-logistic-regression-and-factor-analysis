@@ -337,20 +337,19 @@ The findings showed that combining these techniques can greatly improve loan def
 
 ## Recommendation for future research 
 
-	- Integration of advanced machine learning models: Adding sophisticated algorithms like ensemble techniques or Gradient Boosting Machines (like XGBoost and LightGBM) could improve predicted accuracy and adaptability to complicated datasets.
+- Integration of advanced machine learning models: Adding sophisticated algorithms like ensemble techniques or Gradient Boosting Machines (like XGBoost and LightGBM) could improve predicted accuracy and adaptability to complicated datasets.
 
-	- Dynamic factor models: Using dynamic factor analysis can help models perform better in changing financial markets by taking time varying elements into consideration.
+- Dynamic factor models: Using dynamic factor analysis can help models perform better in changing financial markets by taking time varying elements into consideration.
 
-	- Real-time risk assessment: By integrating streaming data into real-time scoring systems, it may be possible to obtain immediate insights while processing loan applications.
+- Real-time risk assessment: By integrating streaming data into real-time scoring systems, it may be possible to obtain immediate insights while processing loan applications.
 
-	- External data incorporation: The model could be enhanced and non-traditional creditworthiness signals could be captured by incorporating alternative data sources such social media activity, transaction patterns, and utility payment histories.
+- External data incorporation: The model could be enhanced and non-traditional creditworthiness signals could be captured by incorporating alternative data sources such social media activity, transaction patterns, and utility payment histories.
 
-	- Explainability and AI trust: By providing clear insights into the variables affecting risk projections, explainable AI (XAI) solutions can increase stakeholders' trust.
+- Explainability and AI trust: By providing clear insights into the variables affecting risk projections, explainable AI (XAI) solutions can increase stakeholders' trust.
 
+- Fairness and Regulatory Compliance: Future research should concentrate on making sure the model conforms with ethical norms and financial rules, especially when it comes to biases in loan acceptance decisions.‍
 
-	- Fairness and Regulatory Compliance: Future research should concentrate on making sure the model conforms with ethical norms and financial rules, especially when it comes to biases in loan acceptance decisions.‍
+- Geographic and Demographic Expansion: By evaluating the model in other geographical locations and demographic groupings, its generalizability can be confirmed and market-specific modifications can be found.
 
-	- Geographic and Demographic Expansion: By evaluating the model in other geographical locations and demographic groupings, its generalizability can be confirmed and market-specific modifications can be found.
-
-	- Integration with Blockchain Technology: Investigating blockchain's potential for safe data exchange and improved loan processing transparency can increase public confidence in financial institutions.
+- Integration with Blockchain Technology: Investigating blockchain's potential for safe data exchange and improved loan processing transparency can increase public confidence in financial institutions.
 
