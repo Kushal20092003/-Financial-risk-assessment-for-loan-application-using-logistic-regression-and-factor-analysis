@@ -281,3 +281,57 @@ approval decisions.
   
 Log(P/1-P) = -80.967+(0.119×Credit Score) −(7.616×DTI) +(0.000×Monthly Debt) +(0.010×Credit Utilization) −(0.608×Home Mortgage).
 
+## Result
+
+### Factor Analysis:
+
+    - This factor is critical for assessing creditworthiness and risk of default, as it shows whether the borrower is nearing their credit limit or managing balances responsibly.
+
+    - A balanced mix of income and debt obligations may be healthy, indicating a stable financial situation. A high debt-to-income ratio might indicate potential difficulties in discharging the debt and consequently, in servicing the debt balance.
+
+    - These factors strongly predict trustworthiness and consistency of credit behavior. Borrowers scoring high here could be considered lower risk, since they have confirmed stability over time.
+
+    - A high score here may mean that there are significant loan obligations relative to income, potentially signifying financial strain. This factor is vital for assessing affordability of loans and the debt-to-income ratio, which is an essential metric for lenders.
+
+    - A borrower who has several new credits may have secured some new financial obligations or changes that have altered his credit profile. This factor brings in the implication of the current credit events on the longterm obligation.
+
+### Logistic Regression :
+
+a) Creditworthiness Assessment - Credit Score is the most significant predictor.
+    
+      - Action: Develop exclusive products or expedited processes for applicants with high credit scores.
+    
+   Debt-to-Income Ratio shows a strong negative relationship.
+
+      - Action: Use DTI as a primary eligibility filter in automated approval systems.
+
+b) Loan Purpose Analysis - Asset Purchase loans show a trend toward approval, although not statistically significant.
+      
+      - Action: Consider creating specialized loan offerings or discounts for asset purchases.
+
+c) Home Ownership Insights - Mortgage Holders are less likely to receive approvals.
+
+      - Action: Introduce tailored products like mortgage-backed loans or restructured payment plans for this segment.
+
+   Renters are viewed more favourably.
+
+      - Action: Explore why renters are approved more frequently and refine criteria for homeowners.
+
+d) Operational Enhancements - Automate loan approvals based on significant predictors (e.g., high credit score, low DTI, moderate credit utilization).
+
+      - Action: Deploy a predictive model to flag high-probability approvals and reduce processing time.
+
+f) Risk Management - High DTI and excessive credit utilization are key risk factors.
+
+      - Action: Offer credit counseling and risk-based pricing for high-risk customers. Monitor customers with significant monthly debts to identify those suitable for cross-selling other financial products.
+
+g) Policy Refinement - Reassess the role of non-significant variables (e.g., bankruptcies, tax liens) in risk scoring.
+
+      - Action: Explore alternative datasets or variable transformations to improve predictive power.
+
+## Conclusion:
+
+The aim of the project was to combine factor analysis and logistic regression to create a reliable framework for evaluating financial risk in loan applications. The probability of loan defaults was successfully determined using logistic regression, which is known for its resilience in binary classification situations. Factor analysis made it possible to reduce dimensionality and identify important latent factors—like debt-to-income ratio, income stability, and credit history—that affect financial risk.
+
+The findings showed that combining these techniques can greatly improve loan default prediction interpretability and predictive accuracy. The model provided financial organizations with a useful tool for data-driven decision-making by striking a balance between specificity and sensitivity. The framework ensures better financial resource allocation, streamlines loan approval procedures, and reduces credit risk.
+
